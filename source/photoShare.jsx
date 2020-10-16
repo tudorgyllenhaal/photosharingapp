@@ -20,7 +20,7 @@ import LogIn from './components/logIn/logIn';
 import AddPhotoView from './components/addPhotoView/AddPhotoView';
 import Message from './components/message/Message';
 import FavoriteList from './components/favoriteList/FavoriteList';
-import dataContext from './dataModel/dataContext';
+//import dataContext from './dataModel/dataContext';
 import fireAction from './dataModel/fireAction';
 import ActionTypes from './dataModel/actionTypes';
 import loggeduserstore from './dataModel/loggedUser';
