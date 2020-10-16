@@ -1,0 +1,9 @@
+.ULlinkToUser{
+    display: flex;
+}
+.ULiconContainer{
+    min-width: 40px;
+}
+.ULlistItem{
+    white-space: nowrap;
+}

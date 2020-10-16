@@ -1,0 +1,7 @@
+.TBappBar {
+  height: 60;
+  justify-content: 'center';
+}
+.TBplaceholder{
+  flex: 1;
+}

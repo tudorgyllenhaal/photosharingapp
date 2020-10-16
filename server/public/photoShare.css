@@ -1,0 +1,10 @@
+.header{
+    
+}
+.body{
+    margin-top:2em;
+}
+.logInView{
+    display: flex;
+    justify-content: center;
+}

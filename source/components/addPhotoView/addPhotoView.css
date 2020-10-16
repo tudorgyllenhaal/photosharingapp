@@ -1,0 +1,135 @@
+.APVbackground{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.8;
+
+    z-index: 1700;
+    overflow: hidden;
+
+}
+.APVtopContainer{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    z-index:1701;
+    overflow: hidden;
+}
+.APVcontrolContainer{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 1em;
+    padding-top: 1em;;
+}
+.APVmediaContainer{
+    height: 80vh;
+    width: 70vw;
+
+    background-color: white;
+    opacity: 1;
+    z-index: 1701;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    overflow: scroll;
+}
+.APVGridImg{
+    margin-top: 1vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+
+}
+.APVimgContainer{
+    position: relative;
+    height: 50vh;
+    margin-top: 1vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+
+    
+    border-width: 1px;
+    border-style: solid;
+}
+.APVimgContainer img{
+    height: 100%;
+    width: 100%;
+}
+.APVbuttonContainer{
+    height: 10vh;
+
+    margin-top: 1vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.APVplaceholder{
+    flex:1;
+}
+.APVinputRef{
+    display: none;
+}
+.APVerrContainer{
+    color:red;
+
+    display: flex;
+    justify-content: center;
+}
+.APVButtonLabel{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+}
+.APVCatch{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    
+
+    z-index: 1900;
+    overflow: hidden;
+
+}
+.APVCaptureRec{
+    position: fixed;
+
+    z-index: 1800;
+    background-color: black;
+    opacity: 0.5;
+}
+.APVImageTagWindow{
+    position: absolute;
+
+    background-color: black;
+    opacity: 0.3;
+}
+.APVGridFeedback{
+    margin-top: 1vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    height: 50vh;
+    overflow:scroll;
+}
+.APVFeedbackContainer{
+    margin-top: 1vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}

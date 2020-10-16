@@ -1,0 +1,28 @@
+.UPtileBorder{
+    border-width:1px;
+    border-style:solid;
+    border-collapse: collapse;
+}
+.UPtopContainer{
+    widows: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+
+}
+.UPimageContainer{
+    height: 100%;
+    width: 60%;
+    opacity: 1;
+}
+.UPimageContainer img{
+    width: 100%;
+    height: 100%;
+}
+.UPcommentContainer{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+    overflow: scroll;
+}

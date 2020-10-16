@@ -1,0 +1,69 @@
+.PtopContainer{
+    position: relative;
+    width:100%;
+    height:100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-content: stretch;
+}
+.PcontrolContainerBackground{
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    
+
+    
+}
+.PcontrolContainer{
+    width: 100%;
+    height: 15%;
+   
+    position: absolute;
+    top:0px;
+
+    background-color: black;
+    opacity: 0.5;
+
+    display:flex;
+    flex-direction: row-reverse;
+    justify-items: flex-start;
+    align-items: center;
+
+   
+
+}
+.PimageContainer{
+    width:100%;
+    height: 85%;
+    position: relative;
+    top: 0px;
+}
+.PimageContainer img{
+    height: 100%;
+    width: 100%;
+
+}
+.PimageTagWindow{
+    position: absolute;
+}
+.PlikeContainer{
+    height: 15%;
+    position: absolute;
+    background-color: white;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
